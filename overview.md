@@ -10,11 +10,11 @@
 
 ### GAS（GoogleAppsScript）とは？
 > グーグルが提供しているJavaScriptをベースに作られたプログラム言語です。
-
-> Googleアカウントさえあれば開発環境なしで簡単に利用できるほか、Googleスプレッドシート等の各Googleサービスと連携可能で、データ分析・グラフ作成なども効率化できます。
-
+>
+> Googleアカウントさえあれば開発環境なしで簡単に利用できるほか、Googleスプレッドシート等の各Googleサービスと連携可能で、データ分析・グラフ作成なども効率化できま>す。
+>
 > Excelなどを効率化するプログラミング言語としてVBAがありますが、そのGoogle版といえるでしょう。
-
+>
 > https://goworkship.com/magazine/google-apps-script/
 
 ## ツールの仕組み
