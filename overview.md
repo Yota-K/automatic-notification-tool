@@ -15,7 +15,8 @@
 >
 > Excelなどを効率化するプログラミング言語としてVBAがありますが、そのGoogle版といえるでしょう。
 >
-> https://goworkship.com/magazine/google-apps-script/
+
+https://goworkship.com/magazine/google-apps-script/
 
 ## ツールの仕組み
 
