@@ -3,10 +3,10 @@ function customTrigger() {
     var getDay = new Date().getDay();
   
     if (getDay === 0 || getDay === 6) {
-      return;
+        return;
     }
     else {
-      sendMessage();
+        sendMessage();
     }
 }
   
@@ -21,15 +21,15 @@ function sendMessage() {
     // 表全体のループ
     for (var r = 0; r < progressValues.length; r++) {
         // 列のループ
-        for (var i = 0; i <progressValues[r].length; i++) {
+        for (var i = 0; i < progressValues[r].length; i++) {
             // 数字に"本"をつける
             if (typeof progressValues[r][i] === "number") {
-              headingIndex += 1;
-              text += '\n' + heading[0][headingIndex] + ' : ' + progressValues[r][i] + '本';
-              //   一列終わったらリセット
-              if (headingIndex >= 2) {
-                  var headingIndex = -1;
-                  continue;
+                headingIndex += 1;
+                text += '\n' + heading[0][headingIndex] + ' : ' + progressValues[r][i] + '本';
+                //   一列終わったらリセット
+                if (headingIndex >= 2) {
+                    var headingIndex = -1;
+                    continue;
                 }
             }
             else {
@@ -45,7 +45,7 @@ function sendMessage() {
   
     //送信
     client.sendMessage({
-        room_id: 53710678,
+        room_id: ******,
         body: 
         '[info]' 
         + '[title]' + '本日の進捗状況！' + '[/title]' 
